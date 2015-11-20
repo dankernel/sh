@@ -13,9 +13,8 @@ fi
 
 #make dir and copy compile File
 mkdir $1
-cp ~/sh/mkp/dif++/* ./$1/
+cp ~/sh/mkp/dif/* ./$1/
 
 #change dir and rum VIM
 cd $1
-vim main.cpp
-
+vim main.c
